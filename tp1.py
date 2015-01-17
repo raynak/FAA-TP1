@@ -3,17 +3,21 @@ import numpy.linalg as npla
 
 #import des matrice
 
-t= np.loadtxt("data/t.txt")
-p= np.loadtxt("data/p.txt")
+#fontion theta
 
-N = t.size
+def theta():
 
-un= np.ones((1,N))
+   t= np.loadtxt("data/t.txt")
+   p= np.loadtxt("data/p.txt")
 
-x= np.array((t,un))
+   N = t.size
 
-print x
+   un= np.ones((1,N))
 
-theta= npla.inv(x*x.T) * (x*y)
+   x= np.vstack((t,un))
 
-print theta
+   theta= np.dot(np.linalg.inv(np.dot(x,x.T)), np.dot(x,p))
+
+   return theta
+
+print theta()
