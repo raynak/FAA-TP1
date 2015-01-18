@@ -7,8 +7,12 @@ Apprendre des données pour predire la trajectoire d'un objet
 
 Outils mathematique
 ===================
-regression lineaire
+Regression lineaire
 
 Commentaire
 ===========
-premier pas avec python
+Premier pas avec python
+
+How to
+======
+<code> python2.7 tp1.py </code>
