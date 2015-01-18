@@ -3,4 +3,12 @@ Premier tp de FAA
 
 But
 ===
-Predire la direction d'un objet
+Apprendre des données pour predire la trajectoire d'un objet
+
+Outils mathematique
+===================
+regression lineaire
+
+Commentaire
+===========
+premier pas avec python
