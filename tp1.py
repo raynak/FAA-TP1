@@ -24,13 +24,13 @@ def theta():
    return np.dot(np.linalg.inv(np.dot(x,x.T)), np.dot(x,p))
 
 
-# f(theta)=(1/N)(Y-theta.t X)^2
+# f(theta)=(1/N)(Y-x.T theta)^2
 def fTheta():
 
    global x
    global theta
 
-   return np.dot(theta.T, x)
+   return np.dot(x.T, theta)
 
 #calcul de l'erreur quadratique moyenne
 def erreurQuadra():
