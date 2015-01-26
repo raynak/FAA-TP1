@@ -1,6 +1,10 @@
 # FAA-TP1
 Premier tp de FAA
 
+Auteur
+=====
+Valentin Owczarek
+
 But
 ===
 Apprendre des données pour predire la trajectoire d'un objet
